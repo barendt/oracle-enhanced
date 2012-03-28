@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "activerecord-oracle_enhanced-adapter.gemspec",
+    "ctreatma-activerecord-oracle_enhanced-adapter.gemspec",
     "lib/active_record/connection_adapters/emulation/oracle_adapter.rb",
     "lib/active_record/connection_adapters/oracle_enhanced.rake",
     "lib/active_record/connection_adapters/oracle_enhanced_activerecord_patches.rb",
@@ -89,7 +90,6 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<jeweler>, ["~> 1.5.1"])
       s.add_development_dependency(%q<rspec>, ["~> 2.4"])
-      s.add_development_dependency(%q<rdoc>, [">= 0"])
       s.add_development_dependency(%q<activerecord>, [">= 0"])
       s.add_development_dependency(%q<activemodel>, [">= 0"])
       s.add_development_dependency(%q<activesupport>, [">= 0"])
@@ -102,7 +102,6 @@ Gem::Specification.new do |s|
     else
       s.add_dependency(%q<jeweler>, ["~> 1.5.1"])
       s.add_dependency(%q<rspec>, ["~> 2.4"])
-      s.add_dependency(%q<rdoc>, [">= 0"])
       s.add_dependency(%q<activerecord>, [">= 0"])
       s.add_dependency(%q<activemodel>, [">= 0"])
       s.add_dependency(%q<activesupport>, [">= 0"])
@@ -116,7 +115,6 @@ Gem::Specification.new do |s|
   else
     s.add_dependency(%q<jeweler>, ["~> 1.5.1"])
     s.add_dependency(%q<rspec>, ["~> 2.4"])
-    s.add_dependency(%q<rdoc>, [">= 0"])
     s.add_dependency(%q<activerecord>, [">= 0"])
     s.add_dependency(%q<activemodel>, [">= 0"])
     s.add_dependency(%q<activesupport>, [">= 0"])
